@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoView | Maniesh</title>
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/detail.css">
+    
+    <link rel="shortcut icon" href="/assets/images/cryptocurrency.png" type="image/png">
+</head>
+
+<body>
+    <nav>
+        <img src="/assets/images/cryptocurrency.png" alt="Logo"  id="coin-logo" class="logo-img" />
+        <h1 class="d-inline title ml-1">CryptoView</h1>
+        <button class="f-right nav-button" id="nav-search-button">Search</button>
+    </nav>
+    
+    <section class="flex-container">
+        <img src="/assets/images/cryptocurrency.png" alt="Coin Logo" id="coin-logo" class="main-img">
+        <div class="main-contents">
+            <h1 class="mb-1 color-yellow" id="coin-name">...</h1>
+
+
+            <div class="flex-container spacing mb-1 mt-1">
+                <p>₹ <span id="inr-price">...</span></p>
+                <p>$ <span id="usd-price">...</span></p>
+                <p>€ <span id="eur-price">...</span></p>
+                <P>£ <span id="gbp-price">...</span></P>
+            </div>
+      
+
+            <h3 class="mt-1">Description:</h3>
+            <p id="coin-description">...</p>
+        </div>
+    </section>
+    
+    <section class="ml-5 mr-5">
+        <h1 class="color-yellow mb-1 mt-1">Price History</h1>
+        <canvas id="myChart" width="100" height="25"></canvas>
+    </section>
+
+    <footer>
+        <p class="d-inline">&copy; CryptoView | Developed By Maniesh</p>
+        <a href="#">
+            <img src="/assets/images/cryptocurrency (1).png" alt="" class="footer-image f-right">
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #e5e5e5;
+    /* position: relative; */
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.d-inline {
+    display: inline;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 0.5rem;
+}
+
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.nav-button {
+    background-color: #ffffff;
+    border: 1px solid #fca311;
+    border-radius: 5px;
+    padding: 0.25rem 1rem 0.25rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: all 0.25s;
+}
+
+.nav-button:hover {
+    background-color: #fca311;
+    color: #ffffff;
+}
+
+.logo-img {
+    height: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    vertical-align: top;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-10 {
+    margin-left: 10rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.ml-5 {
+    margin-left: 5rem;
+}
+
+.mr-5 {
+    margin-right: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-yellow {
+    color: #fca311;
+}
+
+
+.card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.footer-image {
+    height: 1.5rem;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 1rem;
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: calc(100% - 2rem);
+}
